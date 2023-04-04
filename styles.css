@@ -17,7 +17,7 @@ body {
   border-radius: 9px;
 }
 
-.display {
+.calculator {
   text-align: right;
   padding: 4px 8px 4px 8px;
   background-color: #505051;
@@ -34,8 +34,13 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.total {
+.previousTop {
   font-size: 1.4rem;
+  height: 32px;
+}
+
+.currentLow {
+  height: 20px;
 }
 
 .button:hover {
@@ -43,12 +48,15 @@ body {
 }
 
 .button {
-  height: 40px;
+  height: 35px;
   color: white;
-  background-color: #7b7b7c;
   overflow: hidden;
   border: solid #505051;
   border-width: 0px 1px 0px 0px;
+}
+
+.number {
+  background-color: #7b7b7c;
 }
 
 .primary {
